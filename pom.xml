@@ -95,6 +95,17 @@
                 <module>integration-tests</module>
             </modules>
         </profile>
+        <profile>
+            <id>123</id>
+            <activation>
+                <property>
+                    <name>run-abc</name>
+                </property>
+            </activation>
+            <modules>
+                <module>customize-module</module>
+            </modules>
+        </profile>
     </profiles>
     <repositories>
         <repository>
