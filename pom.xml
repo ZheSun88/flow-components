@@ -85,7 +85,7 @@
     </modules>
     <profiles>
         <profile>
-            <id>default</id>
+            <id>run-it</id>
             <activation>
                 <property>
                     <name>run-it</name>
